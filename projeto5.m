@@ -82,7 +82,7 @@ for matriz = 3:2:9
 end
 
 %% 4 Mediana Adaptativa (Aplicação)
-mediana_adp = adpmedian(I, 9);
+mediana_adp = adpmedian(sal_pimenta, 9);
 figure; 
 subplot(2,2,1);
 imshow(sal_pimenta,[]); 
